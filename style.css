@@ -1,0 +1,122 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    padding: 20px;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Title Styling */
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Section */
+.form-section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-section h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+/* Resume Templates */
+.template h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.template h2 {
+    font-size: 24px;
+    color: #555;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin: 15px 0 10px;
+}
+
+.template p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid #333;
+    margin: 20px 0;
+}
+
+/* Professional Template */
+.professional .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Georgia', serif;
+}
+
+/* Creative Template */
+.creative {
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    color: blue;
+}
+
+/* Classic Template */
+.classic {
+    font-style: italic;
+    color: #444;
+    font-family: 'Times New Roman', serif;
+}
